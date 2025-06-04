@@ -4,7 +4,7 @@ Si el código es "DESCUENTO10", se aplicará un 10% de descuento. Si el código 
 si corresponde, y un mensaje si el código no es válido. (10p)
 */
 let totalCompra = prompt("Ingrese el total de su compra:");
-totalCompra = parseFloat(totalCompra);
+totalCompra = parseFloat(totalcompra);
 
 let codigoDescuento = prompt("Ingrese su código de descuento (o deje en blanco si no tiene):");
 
